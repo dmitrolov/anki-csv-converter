@@ -1,0 +1,26 @@
+{
+  "name": "anki-csv-converter",
+  "version": "1.0.0",
+  "description": "Convert csv to anki card import text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrolov/anki-csv-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dmitrolov/anki-csv-converter/issues"
+  },
+  "homepage": "https://github.com/dmitrolov/anki-csv-converter#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "papaparse": "^5.5.2",
+    "readline-sync": "^1.4.10"
+  }
+}
